@@ -84,7 +84,7 @@ function App() {
         {/* Title Slide */}
         <section data-auto-animate>
           <img
-            src="/javascript-signals.png"
+            src="javascript-signals.png"
             alt="JavaScript Signals"
             style={{ height: "15rem" }}
           />
@@ -103,6 +103,16 @@ function App() {
         {/* About Me */}
         <section data-auto-animate>
           <h2>About Me</h2>
+          <img
+            src="hey-sunglasses.png"
+            alt="Quin Carter"
+            style={{
+              height: "15rem",
+              position: "absolute",
+              top: "-18rem",
+              left: "-7rem",
+            }}
+          />
           <ul>
             <li className="fragment">
               Lead Engineer at Capital One (6+ years)
@@ -149,7 +159,7 @@ function App() {
             <h3>Component State</h3>
             <p>State that belongs to and is managed by a single component</p>
             <img
-              src="/component-state.webp"
+              src="component-state.webp"
               alt="Component State"
               style={{ height: "27rem" }}
             />
@@ -168,7 +178,7 @@ function App() {
             <p>State shared between multiple components in a specific area</p>
             <p>Story of your app at any given time</p>
             <img
-              src="/redux.jpeg"
+              src="redux.jpeg"
               style={{ height: "24rem" }}
               alt="Redux State"
             />
@@ -195,7 +205,7 @@ function App() {
             <p>State accessible throughout the entire application</p>
             <img
               className="fragment"
-              src="/liarliar.gif"
+              src="liarliar.gif"
               alt="Jim Carrey Liar Liar"
             />
             <aside className="notes">
@@ -265,7 +275,7 @@ function App() {
             and future outlook
           </p>
           <img
-            src="/tc39-qr.png"
+            src="tc39-qr.png"
             alt="Signals Proposal"
             style={{ height: "12rem" }}
           />
@@ -284,14 +294,14 @@ function App() {
           <p>Why do I Care about TC39?</p>
           <span>
             <img
-              src="/swedish-chef-baking.gif"
+              src="swedish-chef-baking.gif"
               alt="Swedish Chef Baking"
               style={{ height: "15rem" }}
             />
           </span>
           <span>
             <img
-              src="/bake-off.gif"
+              src="bake-off.gif"
               alt="Bake Off"
               style={{ height: "15rem" }}
             />
@@ -369,7 +379,7 @@ function App() {
           <section data-auto-animate>
             <h3>Pub/Sub?</h3>
             <img
-              src="/pubsub-diagram.png"
+              src="pubsub-diagram.png"
               alt="Pub/Sub"
               style={{ height: "20rem" }}
             />
@@ -388,7 +398,7 @@ function App() {
           <section data-auto-animate>
             <h3>How do they work, really?</h3>
             <img
-              src="/amazon-example.png"
+              src="amazon-example.png"
               alt="Amazon Example"
               style={{ height: "30rem" }}
             />
@@ -407,7 +417,7 @@ function App() {
               application architecture.
             </li>
             <img
-              src="/radio-national-radio-day.gif"
+              src="radio-national-radio-day.gif"
               alt="Radio National Radio Day"
               style={{ height: "15rem" }}
             />
@@ -419,7 +429,7 @@ function App() {
           <section data-auto-animate>
             <h2>Signal Implementations</h2>
             <p>How different frameworks approach signals</p>
-            <img src="/anton-hacker.gif" alt="hacker" />
+            <img src="anton-hacker.gif" alt="hacker" />
             <aside className="notes">
               Let's look at how different frameworks are implementing Signals.
               Each implementation has its own unique approach, but they all
@@ -815,7 +825,7 @@ debug(count)`}</code>
           </section>
           <section data-auto-animate>
             <h3>Lit Element</h3>
-            <img src="/lit-signals.png" alt="lit signals all your base" />
+            <img src="lit-signals.png" alt="lit signals all your base" />
           </section>
           <section data-auto-animate>
             <h3>Lit Element</h3>
