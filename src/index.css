@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.reveal {
+  height: 100%;
+}
+
+.reveal .hljs.has-highlights tr.highlight-line > td {
+  opacity: 1 !important;
+}
+
+.reveal .hljs.has-highlights tr {
+  opacity: 1 !important;
+}
+
+.reveal .hljs.has-highlights tr > td {
+  opacity: 0.6 !important;
+}
+
+/* for state examples */
+button.hoverable {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+button.hoverable:hover {
+  background-color: tomato;
+  color: yellow;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+button.hoverable:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.stackblitz-embed {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.stackblitz-embed > iframe {
+  height: 40rem;
+}
