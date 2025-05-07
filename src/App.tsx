@@ -883,6 +883,108 @@ export class SharedCounterComponent extends SignalWatcher(LitElement) {
             attention! I'm happy to answer any questions you might have.
           </aside>
         </section>
+
+        {/* Resources */}
+        <section>
+          <h2>Resources</h2>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "1rem",
+              fontSize: "0.8em",
+            }}
+          >
+            <div>
+              <h3>TC39 Proposal</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/tc39/proposal-signals"
+                    target="_blank"
+                  >
+                    Signals Proposal
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/tc39/proposals" target="_blank">
+                    All TC39 Proposals
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Framework Implementations</h3>
+              <ul>
+                <li>
+                  <strong>SolidJS:</strong>
+                  <a
+                    href="https://www.solidjs.com/guides/reactivity"
+                    target="_blank"
+                  >
+                    Reactivity Guide
+                  </a>
+                </li>
+                <li>
+                  <strong>Vue:</strong>
+                  <a
+                    href="https://vuejs.org/guide/essentials/reactivity-fundamentals.html"
+                    target="_blank"
+                  >
+                    Reactivity Fundamentals
+                  </a>
+                </li>
+                <li>
+                  <strong>Preact:</strong>
+                  <a
+                    href="https://preactjs.com/guide/v10/signals/"
+                    target="_blank"
+                  >
+                    Signals Documentation
+                  </a>
+                </li>
+                <li>
+                  <strong>Lit:</strong>
+                  <a
+                    href="https://lit.dev/docs/data/signals/"
+                    target="_blank"
+                  >
+                    Signals Guide
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Community Resources</h3>
+              <ul>
+                <li>
+                  <a href="https://github.com/preactjs/signals" target="_blank">
+                    Preact Signals GitHub
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/solidjs/solid" target="_blank">
+                    SolidJS GitHub
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/vuejs/core" target="_blank">
+                    Vue Core GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <aside className="notes">
+            Here are all the resources you need to get started with signals in
+            your preferred framework. The TC39 proposal is the best place to
+            understand the core concepts. Each framework's documentation
+            provides specific implementation details and best practices. The
+            GitHub repositories are great for diving deeper into the
+            implementations. Feel free to explore these resources and start
+            experimenting with signals in your projects.
+          </aside>
+        </section>
       </div>
     </div>
   );
